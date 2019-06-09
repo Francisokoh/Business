@@ -1,0 +1,98 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sc"/>
+    <TextView
+
+        android:id="@+id/FrancisSoftwares"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textStyle="bold"
+        android:padding="50dp"
+        android:text="SOFTWARE SOLUTIONS"/>
+
+    <TextView
+        android:id="@+id/ContactUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/FrancisSoftwares"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:text="CONTACT US:"/>
+
+    <TextView
+        android:id="@+id/Phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ContactUs"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        android:padding="7dp"
+        android:text="Phone: +2348034800000"/>
+
+    <TextView
+        android:id="@+id/Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Phone"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        android:padding="7dp"
+        android:text="Email: softwares@gmail.com"/>
+
+    <TextView
+        android:id="@+id/Address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Email"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        android:padding="7dp"
+        android:text="Address: 4, Kingsway Street, Benin City."/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:layout_above="@+id/Operation"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:padding="7dp"
+        android:text="OUR BUSINESS: We Develope Mobile and Web Softwares for Various Devices"/>
+
+    <TextView
+        android:id="@+id/Operation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/holo_red_dark"
+        android:padding="20dp"
+        android:text="Hours of Operation: 8am - 5pm Daily." />
+
+
+</RelativeLayout>
